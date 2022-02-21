@@ -215,14 +215,14 @@ public class Homework {
 		
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[i].length; j++) {
-				arr[i][j] = j;
+				arr[i][j] = j + 1;
 				System.out.printf("[%2d]", arr[i][j]);
 			}
 			System.out.println();
 			i++;
 			
 			for (int j = 0; j < arr[i].length; j++) {
-				arr[i][j] = arr.length - j - 1;
+				arr[i][j] = arr.length - j;
 				System.out.printf("[%2d]", arr[i][j]);
 			}
 			System.out.println();
